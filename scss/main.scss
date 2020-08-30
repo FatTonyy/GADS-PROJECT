@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap");
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+$dark: #010101;
+$black: #000;
+
+html {
+	font-family: "Inter", sans-serif;
+	box-sizing: border-box;
+	font-size: 65.8%;
+}
+
+body {
+	background: linear-gradient(rgba($dark, 0.4), rgba($dark, 0.4)),
+		url(/img/bg.jpg) no-repeat center center/cover;
+	min-height: 100vh;
+	font-size: 1.2rem;
+}
