@@ -1,0 +1,38 @@
+{
+	"name": "GADS-Weather-App",
+	"short_name": "Weather-app",
+	"scope": "/",
+	"display": "standalone",
+	"start_url": "./app/index.html",
+	"background_color": "transparent",
+	"theme_color": "transparent",
+	"description": "Weather application that tells the weather of a particular country and location",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "/img/logo-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/img/logo-96.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "/img/logo-256.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		},
+		{
+			"src": "/img/logo-128.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "/img/logo-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	]
+}
