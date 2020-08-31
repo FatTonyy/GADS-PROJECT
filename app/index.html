@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css" />
 	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
 	<link rel="apple-touch-icon" href="./img/apple-icon.png">
-	<link rel='manifest' href='../manifest.json'>
+	<link rel='manifest' href='/manifest.json'>
 	<title>Weather-App</title>
 </head>
 
@@ -79,6 +79,12 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
+	<script type='module' src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate"></script>
+
+	<script>
+		const el = document.createElement('pwa-update');
+		document.body.appendChild(el);
+	</script>
 
 </body>
 
